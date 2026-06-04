@@ -1,1 +1,234 @@
 
+/* ===== RESET & BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #111111;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00d4ff;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #00d4ff;
+}
+
+/* ===== HERO SECTION ===== */
+#home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+}
+
+#home h1 {
+  font-size: 56px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+#home h2 {
+  font-size: 24px;
+  color: #00d4ff;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  color: #aaaaaa;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+#home a {
+  display: inline-block;
+  padding: 14px 32px;
+  margin: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#home a:first-of-type {
+  background-color: #00d4ff;
+  color: #000000;
+}
+
+#home a:last-of-type {
+  border: 2px solid #00d4ff;
+  color: #00d4ff;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 80px 50px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #00d4ff;
+  text-align: center;
+}
+
+/* ===== ABOUT ===== */
+#about {
+  background-color: #111111;
+  text-align: center;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 0 auto 16px;
+  color: #cccccc;
+  font-size: 17px;
+}
+
+/* ===== SKILLS ===== */
+#skills {
+  background-color: #0a0a0a;
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+#skills ul li {
+  background-color: #1a1a2e;
+  color: #00d4ff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: 1px solid #00d4ff;
+  font-size: 15px;
+}
+
+/* ===== PROJECTS ===== */
+#projects {
+  background-color: #111111;
+  text-align: center;
+}
+
+.project-card {
+  background-color: #1a1a2e;
+  border: 1px solid #00d4ff33;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.project-card h3 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  color: #aaaaaa;
+  margin-bottom: 20px;
+}
+
+.project-card a {
+  color: #00d4ff;
+  text-decoration: none;
+  border: 1px solid #00d4ff;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+
+/* ===== CONTACT ===== */
+#contact {
+  background-color: #0a0a0a;
+  text-align: center;
+}
+
+#contact p {
+  color: #aaaaaa;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+form input,
+form textarea {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+form button {
+  padding: 14px;
+  background-color: #00d4ff;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #111111;
+  text-align: center;
+  padding: 30px;
+  color: #aaaaaa;
+}
+
+footer a {
+  color: #00d4ff;
+  text-decoration: none;
+  margin-left: 16px;
+}
