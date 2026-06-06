@@ -607,3 +607,158 @@ nav a.active {
   text-align: center;
   margin-top: 16px;
 }
+/* ========footer=============*/
+/* ===== MAIN FOOTER ===== */
+.main-footer {
+  background-color: #0a0a0a;
+  border-top: 1px solid #222;
+  padding: 60px 40px 0;
+}
+
+.footer-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-col h3 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Form Column */
+.footer-form {
+  flex: 1.5;
+  min-width: 280px;
+}
+
+.footer-form input,
+.footer-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.footer-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.footer-form button:hover {
+  background-color: #ff0000;
+}
+
+/* Find Us Column */
+.footer-find {
+  flex: 1;
+  min-width: 220px;
+}
+
+.office-card {
+  background-color: #111;
+  border: 1px solid #222;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.office-card h4 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.office-card p {
+  color: #aaaaaa;
+  font-size: 13px;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+.schedule-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #cc0000;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+
+/* Links Columns */
+.footer-links {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #cc0000;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #222;
+  max-width: 1200px;
+  margin: 40px auto 0;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-bottom p {
+  color: #666666;
+  font-size: 13px;
+}
+
+.social-icons a {
+  color: #666666;
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #cc0000;
+}
