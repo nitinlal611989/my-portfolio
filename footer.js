@@ -1,12 +1,22 @@
 const footerHTML = `
   <footer class="main-footer">
+   <div class="footer-reach">
+  <h2>REACH<br>OUT</h2>
+</div>
     <div class="footer-grid">
       <div class="footer-col footer-form">
         <h3>Free Consultation Lo</h3>
         <form id="footerForm">
           <input type="text" placeholder="Tumhara Naam*">
           <input type="email" placeholder="Email*">
-          <input type="tel" placeholder="Phone Number*">
+          <div class="phone-group">
+  <select class="country-code">
+    <option>IND (+91)</option>
+    <option>USA (+1)</option>
+    <option>UK (+44)</option>
+  </select>
+  <input type="tel" placeholder="Phone Number*">
+</div>
           <select>
             <option value="">Service Select Karo*</option>
             <option value="seo">SEO</option>
