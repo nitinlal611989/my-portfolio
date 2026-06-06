@@ -762,3 +762,31 @@ nav a.active {
 .social-icons a:hover {
   color: #cc0000;
 }
+
+.footer-reach h2 {
+  font-size: 52px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.phone-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.phone-group .country-code {
+  width: 130px;
+  padding: 12px 8px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.phone-group input {
+  flex: 1;
+}
