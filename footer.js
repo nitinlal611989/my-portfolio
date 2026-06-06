@@ -1,11 +1,6 @@
-
-    // ===== FOOTER INJECT =====
 const footerHTML = `
   <footer class="main-footer">
-
     <div class="footer-grid">
-
-      <!-- Column 1: Contact Form -->
       <div class="footer-col footer-form">
         <h3>Free Consultation Lo</h3>
         <form id="footerForm">
@@ -22,23 +17,17 @@ const footerHTML = `
           <button type="submit">GET FREE CONSULTATION</button>
         </form>
       </div>
-
-      <!-- Column 2: Find Us -->
       <div class="footer-col footer-find">
         <h3>Find Us</h3>
         <div class="office-card">
           <h4>- DELHI OFFICE</h4>
-          <p>Connaught Place,<br>New Delhi, 110001</p>
+          <p>Connaught Place, New Delhi, 110001</p>
           <p>Email: nitinlal611989@gmail.com</p>
           <p>Phone: +91-XXXXXXXXXX</p>
           <p>Hours: Mon-Sat: 10am - 6pm</p>
-          <a href="contact.html" class="schedule-btn">
-            CONTACT KARO
-          </a>
+          <a href="contact.html" class="schedule-btn">CONTACT KARO</a>
         </div>
       </div>
-
-      <!-- Column 3: Important Links -->
       <div class="footer-col footer-links">
         <h3>Important Links</h3>
         <ul>
@@ -49,8 +38,6 @@ const footerHTML = `
           <li><a href="contact.html">→ Contact Us</a></li>
         </ul>
       </div>
-
-      <!-- Column 4: Services -->
       <div class="footer-col footer-links">
         <h3>Our Services</h3>
         <ul>
@@ -63,10 +50,7 @@ const footerHTML = `
           <li><a href="ppc.html">→ Facebook Ads</a></li>
         </ul>
       </div>
-
     </div>
-
-    <!-- Bottom Bar -->
     <div class="footer-bottom">
       <p>© 2025 Nitin Dev | All Rights Reserved</p>
       <div class="social-icons">
@@ -75,10 +59,7 @@ const footerHTML = `
         <a href="https://instagram.com" target="_blank">Instagram</a>
       </div>
     </div>
-
   </footer>
 `;
 
 document.body.insertAdjacentHTML('beforeend', footerHTML);
-<p>Made with ❤️ by Nitin | 2025</p>
-    
