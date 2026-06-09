@@ -132,47 +132,6 @@ nav a.active {
   color: #000000;
 }
 
-/* ===== HERO SECTION ===== */
-#home {
-  min-height: 92vh;
-  display: flex;
-  align-items: center;
-  padding: 0 60px;
-  background: linear-gradient(135deg, #cc0000 60%, #880000 100%);
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-content {
-  max-width: 600px;
-  z-index: 2;
-}
-
-#home h1 {
-  font-size: 58px;
-  font-weight: 900;
-  color: #ffffff;
-  line-height: 1.1;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-#home h2 {
-  font-size: 26px;
-  color: #ffffff;
-  opacity: 0.9;
-  margin-bottom: 30px;
-  font-weight: 400;
-}
-
-#home p {
-  font-size: 17px;
-  color: #ffffff;
-  opacity: 0.85;
-  max-width: 500px;
-  margin-bottom: 40px;
-}
-
 .hero-buttons {
   display: flex;
   gap: 16px;
