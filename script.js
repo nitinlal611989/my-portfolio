@@ -1,4 +1,3 @@
-
 // ===== SLIDER =====
 const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
