@@ -1,4 +1,17 @@
 
+
+/* ===== COLOR VARIABLES ===== */
+:root {
+  --primary: #cc0000;      /* Main red */
+  --primary-dark: #990000; /* Dark red */
+  --primary-light: #ff1a1a;/* Light red */
+  --accent: #f5c500;       /* Yellow — CTA button */
+  --dark: #111111;         /* Dark bg */
+  --darker: #0a0a0a;       /* Darker bg */
+  --text-white: #ffffff;
+  --text-grey: #aaaaaa;
+  --text-dark: #222222;
+}
 /* ===== RESET & BASE ===== */
 * {
   margin: 0;
