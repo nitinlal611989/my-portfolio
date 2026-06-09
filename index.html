@@ -10,24 +10,62 @@
 
     <!-- header.js se aayega -->
 
-    <!-- ===== HERO SECTION ===== -->
-    <section id="home">
-      <div class="hero-content">
+    <!-- ===== SLIDER SECTION ===== -->
+<section id="home">
+  <div class="slider">
+
+    <!-- Slide 1 -->
+    <div class="slide active" style="background-image: url('images/slider1.webp')">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
         <h1>Migrate For A<br>Better Future</h1>
         <h2>Opportunities Are Waiting For You</h2>
-        <p>India ki #1 Immigration Consultancy.
-           Canada, Australia, UK aur Europe ke liye
-           expert guidance hamare saath!</p>
         <div class="hero-buttons">
-          <a href="contact.html" class="btn-primary">
-            Check Your Eligibility
-          </a>
-          <a href="about.html" class="btn-secondary">
-            Our Services
-          </a>
+          <a href="contact.html" class="btn-primary">Check Your Eligibility</a>
+          <a href="about.html" class="btn-secondary">Our Services</a>
         </div>
       </div>
-    </section>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide" style="background-image: url('images/slider2.webp')">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <h1>Work In Your<br>Dream Country</h1>
+        <h2>Get A Job Offer Within Minutes</h2>
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn-primary">Search Now</a>
+          <a href="about.html" class="btn-secondary">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide" style="background-image: url('images/slider3.webp')">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <h1>Your Dream<br>Starts Here</h1>
+        <h2>Expert Immigration Guidance</h2>
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn-primary">Free Consultation</a>
+          <a href="about.html" class="btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrows -->
+    <button class="slider-arrow prev" id="prevBtn">&#10094;</button>
+    <button class="slider-arrow next" id="nextBtn">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="slider-dots">
+      <span class="dot active" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+
+  </div>
+</section>
 
     <!-- ===== SERVICES SECTION ===== -->
     <section id="services">
