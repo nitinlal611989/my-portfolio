@@ -1067,8 +1067,13 @@ form button:hover {
 }
 
 .country-flag-img {
-  width: 80px;
-  height: 80px;
-  border-redius: 50%;
-  
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-align: centre;
+  margin: 0 auto 16px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px 0 rgba(18, 29, 39, 0.12);
+  display: block;
 }
