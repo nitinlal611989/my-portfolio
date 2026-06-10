@@ -1065,3 +1065,13 @@ form button:hover {
   background-color: var(--primary-dark);
   transform: translateY(-2px);
 }
+
+.country-flag-img {
+  width: 80px;
+  height: 80px;
+  border-redius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border: 3px solid #eeeeee;  ← Subtle border  
+}
