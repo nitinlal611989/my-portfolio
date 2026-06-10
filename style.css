@@ -1017,7 +1017,9 @@ form button:hover {
 .country-flag {
   font-size: 52px;
   margin-bottom: 12px;
+  line-height: 1;
 }
+
 
 .country-card h3 {
   font-size: 22px;
