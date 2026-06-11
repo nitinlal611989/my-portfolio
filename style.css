@@ -1205,3 +1205,121 @@ form button:hover {
 .pnp-see-all:hover {
   color: var(--primary);
 }
+
+
+/* ===== ABOUT HOME SECTION ===== */
+#about-home {
+  background-color: #ffffff;
+  padding: 80px 60px;
+}
+
+.about-home-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Left Image */
+.about-home-image {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-round-img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #f0f0f0;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+/* Right Content */
+.about-home-content {
+  flex: 1.5;
+  min-width: 300px;
+}
+
+.about-tag {
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+
+#about-home h2 {
+  font-size: 32px;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+
+#about-home p {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.read-more {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Progress Bars */
+.progress-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress-item {
+  width: 100%;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.progress-label span:first-child {
+  color: var(--text-dark);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.progress-label span:last-child {
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #eeeeee;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: 2px;
+  transition: width 1.5s ease-in-out;
+}
