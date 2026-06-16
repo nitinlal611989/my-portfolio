@@ -15,98 +15,28 @@
     </section>
 
     <!-- CONTACT SECTION -->
-    <section class="contact-section">
+    <section>
+<form id="visaForm">
+  <div>
+    <label>Apna Naam:</label>
+    <input type="text" id="fullName" placeholder="Rahul Sharma">
+  </div>
+  
+  <div>
+    <label>Phone Number:</label>
+    <input type="tel" id="phoneNumber" placeholder="98765xxxxx">
+  </div>
 
-      <!-- Contact Info -->
-      <div class="contact-info">
+  <button type="submit" id="submitFormBtn">Send Enquiry</button>
+</form>
 
-        <h2>Contact Details</h2>
+<p id="formResponse" style="color: green; font-weight: bold;"></p>
 
-        <div class="info-card">
-          <h3>📧 Email</h3>
-          <p>nitinlal611989@gmail.com</p>
-        </div>
 
-        <div class="info-card">
-          <h3>📍 Location</h3>
-          <p>Delhi, India</p>
-        </div>
-
-        <div class="info-card">
-          <h3>💼 Services</h3>
-          <p>SEO, SMO, PPC, Web Development</p>
-        </div>
-
-        <div class="social-links">
-          <h3>Social Media</h3>
-          <a href="https://github.com/nitinlal611989"
-             target="_blank">GitHub</a>
-          <a href="https://linkedin.com"
-             target="_blank">LinkedIn</a>
-        </div>
-
-      </div>
-
-      <!-- Contact Form -->
-      <div class="contact-form">
-
-        <h2>Message Bhejo</h2>
-
-        <form id="contactForm">
-
-          <div class="form-group">
-            <label>Tumhara Naam *</label>
-            <input
-              type="text"
-              id="name"
-              placeholder="Apna naam likho"
-              required>
-            <span class="error" id="nameError"></span>
-          </div>
-
-          <div class="form-group">
-            <label>Email Address *</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="tumhari@email.com"
-              required>
-            <span class="error" id="emailError"></span>
-          </div>
-
-          <div class="form-group">
-            <label>Service Chahiye</label>
-            <select id="service">
-              <option value="">-- Select karo --</option>
-              <option value="seo">SEO</option>
-              <option value="smo">SMO</option>
-              <option value="ppc">PPC</option>
-              <option value="web">Web Development</option>
-              <option value="all">Sab Services</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label>Tumhara Message *</label>
-            <textarea
-              id="message"
-              placeholder="Apna project batao..."
-              required></textarea>
-            <span class="error" id="messageError"></span>
-          </div>
-
-          <button type="submit" class="btn-primary">
-            Message Bhejo 🚀
-          </button>
-
-          <div class="success-msg" id="successMsg">
-            ✅ Message send ho gaya! Main jald reply karunga.
-          </div>
-
-        </form>
-      </div>
-
+      
     </section>
+
+    
 
    <script src="header.js"></script>   
    <script src="footer.js"></script>  
