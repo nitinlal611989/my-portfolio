@@ -39,3 +39,24 @@ if (prevBtn) prevBtn.addEventListener('click', function() {
 });
 
 autoSlide = setInterval(nextSlide, 5000);
+
+
+// ===== Myform =====
+let myForm = document.getElementById("visaForm")
+let responseMessage =  document.getElementById("formResponse")
+myForm.addEventListener("submit", function(event) 
+                        { event.preventDefault();
+
+let nameValue = document.getElementById("fullName").value;
+  let phoneValue = document.getElementById("phoneNumber").value;
+   if (nameValue === "" || phoneValue === ""){
+      responseMessage.style.color = "red";
+responseMessage.innerText = "Bhai, saari details bharna zaroori hai! ❌";
+   }
+  else {
+    responseMessage.style.color = "green";
+    responseMessage.innerText = `Thank you ${nameValue}! Your enquiry has been submitted. Our team will call on ${phoneValue}. 🎉`;
+     myForm.reset();
+  }
+});
+
